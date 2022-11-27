@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 //jo user login kr rha hai usi ki details about page me dikhegi na ki dusre ki details
 //that's why yeh ek middle ki trh work kr rha hai
 
-//ALL PAGES =>HOME,ABOUT,CONTACT,SIGNIN,SIGNUP KO BACKEND KI HELP SE CREATE KRO.....
+//ALL PAGES =>HOME,ABOUT,CONTACT,SIGNIN,SIGNUP KO BACKEND KI HELP SE CREATE KRO...
 // now about page ke liye app.get likho
 app.get("/about", middleware, (req, res) => {
   console.log(`after executing middleware`);
